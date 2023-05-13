@@ -8,24 +8,16 @@ const NavBar = () => {
                             
             <div className={styles.Categories}>
 
-                <NavLink to={`/category/Corporativa`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
-                    Corporativa
+                <NavLink to={`/category/Tazas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
+                    Tazas
                 </NavLink>
 
-                <NavLink to={`/category/Ambiental`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
-                    Ambiental
+                <NavLink to={`/category/Macetas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
+                    Macetas
                 </NavLink>
 
-                <NavLink to={`/category/Turística`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
-                    Turística
-                </NavLink>
-
-                <NavLink to={`/category/Vial`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
-                    Vial
-                </NavLink>
-
-                <NavLink to={`/category/Seguridad`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
-                    Seguridad
+                <NavLink to={`/category/Muñecos`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>
+                    Muñecos
                 </NavLink>
                
                 <CartWidget className={styles.CartWidget} />

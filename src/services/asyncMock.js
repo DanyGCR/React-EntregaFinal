@@ -20,7 +20,7 @@ let productos = [
     {
       id: "3",
       nombre: "Maceta Articulada",
-      categoria: "Maceta",
+      categoria: "Macetas",
       descripcion: "Maceta de PLA para uso interior y decorativo",
       img: "/Images/MacetaArticulada.jpg",
       precio: "ARS 1300",
