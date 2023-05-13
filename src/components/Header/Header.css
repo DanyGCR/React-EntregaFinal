@@ -1,0 +1,31 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background: transparent;
+    width: 90%;
+    outline: none;
+    margin: 3rem;
+    padding: 0;
+ }
+
+.Logo{
+    background: transparent;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.titulo{
+    font-size: 4rem;
+    font-weight: 200;
+    color: var(--clr-primario-dark);
+}
+
+.subtitulo{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--clr-primario-light);
+    margin: 0px;
+    margin-right: 4vw;
+}

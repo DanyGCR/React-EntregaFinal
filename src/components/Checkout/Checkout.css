@@ -1,0 +1,31 @@
+.CheckoutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+    background: transparent;
+}
+
+.CheckoutTitle{
+    font-size: 3vw;
+    font-weight: 400;
+    margin: 2vh;
+    color: var(--clr-primario);
+}
+
+.MensajePedido{
+    font-size: 2vw;
+    font-weight: 400;
+    margin: 2vh;
+    margin-bottom: 100px;
+    color: var(--clr-primario);
+}
+
+span{
+    font-size: 2vw;
+    font-weight: 400;
+    margin: 2vh;
+    color: rgb(25, 13, 131);
+}

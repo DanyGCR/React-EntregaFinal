@@ -1,0 +1,41 @@
+.Counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Controls{
+      color: var(--clr-terciario);
+      font-size: 4vh;
+      font-weight: 800;
+      background-color: var(--clr-primario-light);
+      border: none;   
+      cursor: pointer;
+      outline: none;
+      margin: 1vh;
+      padding: 0vw 1vw 0vw 1vw;
+      border-radius: 0.5vw;
+  }
+  
+  .Number{
+      font-size: 6vh;
+      font-weight: 900;
+      color: var(--clr-primario-dark);
+      background: transparent;
+      border: none;
+      margin: 1vh;
+      padding: 0vw 1vw 0vw 1vw;
+  }
+  
+  
+  .Button{
+    margin: 3vh;
+    padding: 2vh;
+    border-radius: 2vh;
+    border: none;
+    font-size: 3vh;
+    background-color: var(--clr-primario-light);
+  }
+  

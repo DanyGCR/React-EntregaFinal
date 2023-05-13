@@ -1,0 +1,51 @@
+.NavBar{
+    width: 100%;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: transparent;
+
+}
+
+.Categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--clr-secundario);
+    color: var(--clr-primario);
+    padding: 0.5vw;
+    margin: 0;
+    width: 100%;
+    border: 1px solid var(--clr-gris-claro);
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+}
+
+.Categories :hover{
+    scale: 1.2;
+}
+
+.Categories :active{
+    scale: 1.2;
+    color: var(--clr-gris-claro);
+}
+
+.Categories :focus{
+    scale: 1.2;
+    color: var(--clr-gris-claro);
+}
+
+a{
+    text-decoration: none;
+    color: var(--clr-primario);
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}

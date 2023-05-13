@@ -1,0 +1,25 @@
+.CartWidget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-secundario);
+}
+
+.iconCarrito{
+    font-size: 30px;
+    margin: 10px;
+    padding: 0;
+    background-color: var(--clr-secundario);
+}
+
+.totalQuantity{
+    background-color: var(--clr-secundario);
+    margin: 2px;
+}
+

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border-radius: 2vw;
+    padding: 2vw;
+ 
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-terciario);
+    width: 100%;
+    border-radius: 2vw;
+    padding: 2vw;
+  
+}
+
+.Button{
+    background-color: var(--clr-secundario);
+    color: var(--clr-terciario);
+    border-radius: 1vw;
+    font-size: 2vw;
+    font-weight: 400;
+    margin: 1vw;
+    padding: 1vw;
+    width: 100%;
+    border: none;
+    cursor: not-allowed;
+}
+
+
+.ActiveButton{
+    background-color: var(--clr-primario);
+    color: var(--clr-primario-light);
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 1vw;
+    padding: 1vw;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+}
+
+.Label{
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 1vw;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+}
+
+.Input{
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: 1vw;
+    width: 100%;
+    border-radius: 1vw;
+    border: 2px solid var(--clr-primario-light);
+    cursor: pointer;
+    background-color: var(--clr-gris-claro);
+}
+
+.Error{
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: red;
+    margin: 2vw;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}

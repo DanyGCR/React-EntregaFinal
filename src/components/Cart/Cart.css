@@ -1,0 +1,28 @@
+.Cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Option{
+    background-color: var(--clr-primario-light);
+    color: var(--clr-primario-dark);
+    padding: 1vh;
+    border-radius: 1vh;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin: 1vh;
+
+}
+
+.Total{
+    font-size: 2vw;
+    font-weight: 400;
+    margin: 1vh;
+}
+
+.Title{
+    margin: 4vh;
+}

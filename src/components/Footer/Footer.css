@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;  
+  }
+
+
+.Redes {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    z-index: -10;
+  }
+
+  .iconList {
+    width: 100%;
+    max-width: 50rem;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .iconItem {
+    list-style: none
+  }
+  
+  .iconLink {  
+    display: inline-flex;
+    font-size: 3rem;  
+    text-decoration: none;  
+    color: var(--color-icon);
+    width: 6rem;
+    height: 6rem;   
+    transition: .5s linear;
+    position: relative;
+    z-index: 1;
+    margin: auto
+  }
+  
+  .iconLink:hover {
+    color: #fff;
+  }
+  
+  .iconLink::before {  
+    content: '';
+    position: absolute ;
+    top: -1.5rem;
+    left: -1.5rem;
+    right: 0;
+    bottom: 0;
+    width: 6rem;
+    height: 6rem;
+    background: #000;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+  }
+    
+  .iconLink:hover::before {  
+    transform: scale(1);
+  }
+  
+  .iconItem:nth-child(1) .iconLink:hover:before { 
+    background: var(--social-icon1); 
+  }
+  
+  .iconItem:nth-child(2) .iconLink:hover:before { 
+    background: var(--social-icon2); 
+  }
+  
+  .iconItem:nth-child(3) .iconLink:hover:before { 
+    background: var(--social-icon3); 
+  }
+  
+  .iconItem:nth-child(4) .iconLink:hover:before { 
+    background: var(--social-icon4); 
+  }
+
+  .iconItem:nth-child(5) .iconLink:hover:before { 
+    background: var(--social-icon5); 
+  }
+  
+  .FooterContentCopyright{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    z-index: -10;
+    background-color: var(--clr-primario);
+    color: var(--clr-primario-light);
+  }
+
+  .buttonDeveloper{
+    background: transparent;
+    border: none;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: var(--clr-primario-light);
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }

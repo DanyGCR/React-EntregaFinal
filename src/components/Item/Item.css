@@ -1,0 +1,66 @@
+.CardItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    width: 30vw;
+    height: 30vw;
+    background: var(--clr-terciario);
+    color: var(--clr-primario-dark);
+    font-size: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    outline: none;
+}
+
+.CardItem:hover{
+    scale: 1.1;
+    box-shadow: 10px 10px 20px var(--clr-secundario);
+}
+
+.ItemImg{
+    max-height: 13vw;
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--clr-secundario);
+}
+
+.ItemHeader{
+    background: transparent;
+}
+
+.ItemHeaderTitle{
+    font-size: 2vw;
+    font-weight: 400;
+    color: var(--clr-primario-dark);
+    background-color: var(--clr-terciario);
+    margin-bottom: 1vh;
+}
+
+.imgProductos{
+    background: transparent;
+}
+
+.ItemInfo{
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: var(--clr-primario-dark);
+    background-color: var(--clr-terciario);
+}
+
+.buttonDetail{
+    background: transparent;
+    border: none;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: var(--clr-primario-light);
+    background-color: var(--clr-terciario);
+    cursor: pointer;
+    outline: none;
+}

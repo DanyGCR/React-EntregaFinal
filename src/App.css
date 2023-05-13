@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: var(--ff-primario);
+}
+
+.App {
+  text-align: center;
+}
+
+:root {
+  --clr-primario: #0B0E1D;
+  --clr-primario-dark: #08002C;
+  --clr-primario-light: #009FE3;
+  --clr-secundario: #a0beca;
+  --clr-terciario: rgb(255, 255, 255);
+  --clr-gris-claro: #f1f1f1;
+  --color-icon: #535c68;  
+  --social-icon1: #e4405f;
+  --social-icon2: #3b5999;
+  --social-icon3: #cd201f;
+  --social-icon4: #0077B5;
+  --social-icon5: #25d366;
+  --ff-primario: 'Inter Tight', sans-serif;
+  --ff-secundario: 'Arial', serif;
+  background-color: var(--clr-gris-claro);
+}
